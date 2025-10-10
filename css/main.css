@@ -1,0 +1,14 @@
+.hero {
+  background-image: url("../images_and_files/ken-cheung-0F2nvpob0_c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.display-1 {
+  font-weight: 700;
+}
+
+.d-flex {
+  height: 70vh;
+}

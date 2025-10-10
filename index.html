@@ -14,59 +14,138 @@
   </head>
   <body>
     <header>
-        <nav class="navbar bg-body-tertiary bg-dark" data-bs-theme="dark">
+      <div class="bg-white text-dark" data-bs-theme="bg-light">
+        <div class="w-50 mx-auto text-center">
+          <a
+            class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+            href="#"
+          >
+            <img
+              src="images_and_files/phone-svgrepo-com.svg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            24/7 Service
+          </a>
+        </div>
+      </div>
+
+      <nav
+        class="navbar navbar-expand-lg bg-gradient bg-body-tertiary px-2"
+        data-bs-theme="bg-light"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand pe-3" href="#">
+            <img
+              id="logo"
+              src="images_and_files/mountains-sun-svgrepo-com.png"
+              alt="Logo"
+              width="50"
+              height="50"
+            />
+          </a>
+
+          <div
+            class="collapse"
+            id="navbarToggleExternalContent"
+            data-bs-theme="dark"
+          >
+            <div class="bg-dark p-4">
+              <h5 class="text-body-emphasis h4">Collapsed content</h5>
+              <span class="text-body-secondary"
+                >Toggleable via the navbar brand.</span
+              >
+            </div>
+          </div>
+
+          <nav class="navbar navbar-light bg-light text-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                <img src="images and files/phone-svgrepo-com.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                24/7 Service
-                </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
-        </nav>
-        <nav class="navbar navbar-expand-md bg-light text-dark" data-bs-theme="bg-light">
-            <div class="container">
-                <div class="container-fluid">
-                    <a class="navbar-brand fw-bold text-secondary" href="#">
-                        <img src="images and files/mountains-sun-svgrepo-com.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                        SkyHigh Adventures
-                    </a>
-                        <button type="button" class="btn btn-dark">Explore Adventures</button>
-                        <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto mb-2 mg lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Adventures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Deals</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+          </nav>
+
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Adventures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+              <button class="btn btn-outline-secondary me-2" type="button">
+                Explore Adventures
+              </button>
+
+              <nav class="navbar bg-body-tertiary">
+                <div
+                  class="container-fluid collapse navbar-collapse justify-content-end"
+                  id="navbarNav"
+                >
+                  <form class="container-fluid" role="search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                  </form>
                 </div>
-            </div>
-        </nav>
+              </nav>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="text-white text-center">
+              <h1 class="display-1 fw-bold w-75 mx-auto p-6">
+                Push Your Limits with SkyHigh Adventures
+              </h1>
+              <p class="lead">
+                Experience the thrill of a lifetime with breathtaking views and
+                adrenaline fuelled activities
+              </p>
+              <button class="btn btn-light" type="button">
+                Call to action
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
